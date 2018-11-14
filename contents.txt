@@ -1,0 +1,17 @@
+FONTS
+
+<link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC" rel="stylesheet">
+Specify in CSS
+Use the following CSS rules to specify these families:
+
+font-family: 'Abel', sans-serif;
+font-family: 'Amatic SC', cursive;
+
+
+How did I get here? When did my love for coffee begin? 
+I actually remember the times when I considered the taste of coffee to be awful. 
+Then I added a lot of sugar and milk to my coffee at some point... aaand it tasted better.
+It was a long time ago so I cannot recall the details but I think it was only after I have tasted specialty coffee when realized that I do no need sugar in it.
+I am still working on being able to resist having milk in my cup. My love for coffee has been growing gradually for the past few year and now I am kind of coffee addict.
+I don't need my coffee every day. But I need good quality coffee in my life!
+I am in France now and I do not have any coffee equipment here with me so the only option is to visit cafés. And that's an activity that really makes me smile :)
