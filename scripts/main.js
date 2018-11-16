@@ -33,9 +33,9 @@ function setUserName() {
   }
 
 // belowe we are creating a list that the viewer  can change
-var list = document.createElement('ul');
+/* var list = document.createElement('ul');
 var info = document.createElement('p');
-var clickableelement = document.querySelector('h3');
+var clickableelement = document.querySelector('h3'); // e.g. h3 plus we would write in html some h3 ,e.g. <h3>Do you know any good cafes? recommend it by clicking HERE</h3>
 
 info.textContent = 'you can add some recommendations for cafes yourself. Click on the headline above to create a new list below and add a new list item. Click an existing list item to change its text to something else.';
 
@@ -56,7 +56,7 @@ clickableelement.onclick = function() {
   
   }
 }
-
+*/
   
  
 

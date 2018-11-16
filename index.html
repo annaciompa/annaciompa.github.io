@@ -6,23 +6,37 @@
     <meta name="author" content=" Anna Ciompa">
     <meta name="description" content="I love coffee so I want share my passion with the world">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Abel" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
-        <h1>COFFEE &amp; I</h1>
-       
-    <img src="images/coffee.jpg" alt="a cup of coffee with a beautiful rosetta latte art">
-    <h2>COFFEE &amp; I</h2> 
-      
-        <ul>
+        <header id="main-header">
+                <div class="container">
+                    <h1>COFFEE & I</h1>
+                </div>
+       </header>
+
+       <nav id="mynavbar">
+            <div class="container">
+            <ul>
             <li><a href="cafes.html" title="wanna know more about cafes I like?">Cafés</a></li>
             <li><a href="recipes.html" title="wanna find some vegan recipes?">Recipes</a></li>
             <li><a href="photography.html" title="wanna see some pictures I took?">Photography</a></li>
             <li><a href="contacts.html" title="wanna contact me?">Contacts</a></li>
-        </ul>
-    
-    <p>
+             </ul>  
+            </div>
+       </nav>
+
+       <section id="showcase">
+        <div class="container">
+            <img class="myimage" src="images/coffee.jpg" alt="a cup of coffee with a beautiful rosetta latte art">
+            <h2>COFFEE &amp; I</h2> 
+        </div>
+        </section>
+
+        <div class="container">
+        <section id="main">
+        <p>
         How did I get here? When did my love for coffee begin? 
         I actually remember the times when I considered the taste of coffee to be awful. 
         Then I added a lot of sugar and milk to my coffee at some point... aaand it tasted better.
@@ -41,8 +55,10 @@
                 <li>jogging maybe?</li>
                 </ol>
         </p>
+        </section>
+        <aside id="sidebar">
         <p>
-            Below you can find links to a few really nice cafés I have visited in France so far:
+            links to my favorite cafés in France:
             <ul>
                 <li><a href="https://www.cafemericourt.com/menu/" target="_blank" title="very nice interior">CAFÉ MERICOURT</a></li>
                 <li><a href="https://lomi.paris/" target="_blank" title="not only cafe but also a roastery">LOMI</a></li>
@@ -51,10 +67,15 @@
                 <li><a href="http://www.thestraybean.com/" target="_blank" title="the best place to visit on your trip to Versailles">THE STRAY BEAN</a></li>
                 
             </ul>
+       <br>
+        <button class="button">Change user</button> 
         </p>
-           <button>Change user</button>
-        <h3>Do you know any good cafes? click on me and reccomend them.</h3>
-         
+        </aside>
+        </div>
+        
+        <footer id="main-footer">
+                <p>Copyright &copy; 2017 My Website</p>
+            </footer>
         <script src="scripts/main.js"></script>
         
   </body>
