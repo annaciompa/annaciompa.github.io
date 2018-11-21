@@ -3,16 +3,16 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/coffee.jpg') {
-      myImage.setAttribute ('src','images/tulip.jpg');
-    } else {
+    if(mySrc === 'images/tulip.jpg') {
       myImage.setAttribute ('src','images/coffee.jpg');
+    } else {
+      myImage.setAttribute ('src','images/tulip.jpg');
     }
 }
 
 // BUTTON FOR CHANGING THE USER AND WELCOMING THE USER
 
-var myButton = document.querySelector('button');
+/* var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h2');
 
 function setUserName() {
@@ -30,7 +30,8 @@ function setUserName() {
 
   myButton.onclick = function() {
     setUserName();
-  }
+  } 
+  */
 
 // belowe we are creating a list that the viewer  can change
 /* var list = document.createElement('ul');

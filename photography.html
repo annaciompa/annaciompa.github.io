@@ -2,49 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Photography</title>
-    <meta name="author" content=" Anna Ciompa">
-    <meta name="description" content="I love coffee so I want share my passion with the world">
     <meta name="viewport" content="width=device-width">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Abel" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Anna Ciompa">
+    <title>COFFEE&amp;I| Photography</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
-
   <body>
-      <header id="main-header">
-          <div class="container">
-              <h1>COFFEE & I</h1>
-          </div>
-      </header>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Coffee</span>&amp;I</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cafes.html">Cafés</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li class="current"><a href="photography.html">Photography</a></li>
+            <li><a href="about.html">About</a></li>     
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <nav id="mynavbar">
-          <div class="container">
-        <ul>
-                <li><a href="index.html" title="homepage">Homepage</a></li>
-                <li><a href="cafes.html" title="wanna know more about cafes I like?">Cafés</a></li>
-                <li><a href="recipes.html" title="wanna find some vegan recipes?">Recipes</a></li>
-                <li><a href="contacts.html" title="wanna contact me?">Contacts</a></li>
-            </ul>
-          </div>
-      </nav>
-    <div class="container">
+    <section id="newsletter">
+        <div class="container">
+          <h1>Do you want me to take pictures of you?</h1>
+          <form>
+            <input type="email" placeholder="Enter Email...">
+            <button type="submit" class="button_1">send me your e-mail</button>
+          </form>
+        </div>
+      </section>
+
     <section id="main">
-    <h1>Photography</h1>
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Photography</h1>
+              <p>You can see some of my photography work.</p>
+              <figure class="paris"><img  srcset="images/paris-320w.jpg 320w,
+                       images/paris-480w.jpg 480w,
+                       images/paris-500w.jpg 500w"
+               sizes="(max-width: 320px) 280px,
+                      (max-width: 480px) 440px,
+                      500px"
+               src="images/paris-500w.jpg" alt="incredible view of Paris">
+              <figcaption>Paris from Printemps Rooftop Terrace</figcaption>
+              </figure>
+        </article>
 
-    <p>I also like taking pictures. If you want to see some of the pics I took, you are in the right place</p>
-    <img srcset="images/paris-320w.jpg 320w,
-             images/paris-480w.jpg 480w,
-             images/paris-800w.jpg 800w"
-     sizes="(max-width: 320px) 280px,
-            (max-width: 480px) 440px,
-            800px"
-     src="images/paris-800w.jpg" alt="incredible view of Paris">
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Get A Quote</h3>
+            <p>Contact me if you would like to have nice pictures taken by me:)</p>
+            <form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Email Address">
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+          </div>
+        </aside>
+      </div>
     </section>
-    </div>
 
-    <footer id="main-footer">
-        <p>Copyright &copy; 2018 My Website</p>
+    <footer>
+      <p>Anna Ciompa, Copyright &copy; 2018</p>
     </footer>
   </body>
 </html>
