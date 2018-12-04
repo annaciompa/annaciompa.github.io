@@ -1,3 +1,4 @@
+
 body{
   font: 15px;
   line-height:1.5;
@@ -9,6 +10,7 @@ body{
 
 /* Global */
 .container{
+  position: relative;
   width:80%;
   margin:auto;
   overflow:hidden;
@@ -17,6 +19,11 @@ body{
 ul{
   margin:0;
   padding:0;
+}
+
+input, textarea, button {
+  font-family: inherit;
+  font-size: 100%;
 }
 
 
@@ -36,10 +43,10 @@ a{
 
 .dark{
   padding:15px;
-  background:#35424a;
-  color:#ffffff;
+  background:#e6e6e6;
   margin-top:10px;
   margin-bottom:10px;
+  border: #cccccc solid 1px;
 }
 
 /* Header **/
@@ -59,9 +66,8 @@ header a{
 }
 
 header li{
-  float:left;
-  display:inline;
-  padding: 0 20px 0 20px;
+  display: inline;
+  padding: 0 10px 0 10px;
 }
 
 header #branding{
@@ -146,7 +152,7 @@ header a:hover{
 
 /* Sidebar */
 aside#sidebar{
-  float:right;
+  float: right;
   width:30%;
   margin-top:10px;
 }
@@ -154,16 +160,24 @@ aside#sidebar{
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width:90%;
   padding:5px;
+  font: inherit;
 }
 
 /* Main-col */
 article#main-col{
+  position: relative;
   float:left;
   width:65%;
 }
 
+article#main-col__projects,
+article#main-col__recipes{
+  width: 100%;
+}
+
 figure.paris{
-    width:50%;
+  width:50%;
+  
 }
 
 /* cafelist */
