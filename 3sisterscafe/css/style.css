@@ -197,6 +197,7 @@ nav {
   background-color: #082523;
   color: #eee;
   position: fixed;
+  overflow: hidden;
 }
 nav ul {
   padding: 0;
