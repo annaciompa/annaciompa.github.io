@@ -172,7 +172,8 @@ article#main-col{
 
 article#main-col__projects,
 article#main-col__recipes{
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 figure.paris{
@@ -181,19 +182,24 @@ figure.paris{
 }
 
 /* cafelist */
-ul#cafelist li, ul#recipeslist li{
+ul#cafelist li, ul#recipeslist li, ul#projectslist li{
   list-style: none;
   padding:20px;
   border: #cccccc solid 1px;
   margin-bottom:5px;
   background:#e6e6e6;
 }
+
+
 /*links to favorite cafes */
 ul#favoritecafes li, ul#recipelinks li{
     list-style: none;
     padding: 7px;
   }
-
+  
+ul#projectslist{
+  text-align: center;
+}
 footer{
   padding:20px;
   margin-top:20px;
