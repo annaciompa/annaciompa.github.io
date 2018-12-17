@@ -1,0 +1,75 @@
+main{
+    padding-top: 1rem;
+}
+
+.signup-title{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #015249;
+}
+
+.signup-form{
+    padding: 1rem;
+    display: grid;
+    grid-auto-rows: 2rem;
+    grid-row-gap: 0.5rem;
+}
+
+.signup-form label{
+    font-weight: bold;
+}
+
+.signup-form textarea{
+    resize  : none;
+    overflow: auto;
+}
+.signup-form label, 
+.signup-form select, 
+.signup-form input, 
+.signup-form textarea{
+    display: block;
+    width: 100%;
+}
+
+
+.signup-form select, 
+.signup-form input, 
+.signup-form textarea{
+    border: 1px solid #ccc;
+    padding: 0.2rem 0.5rem;
+    font:inherit;
+}
+
+.signup-form select:focus, 
+.signup-form input:focus,
+.signup-form textarea:focus
+{
+    outline:none;
+    background: #a8d8c3;
+    border-color: #015249;
+}
+
+.signup-form input.invalid,
+.signup-form select.invalid, 
+.signup-form :invalid{
+border-color: red !important;
+background: #faacac;
+}
+
+
+
+@media (min-width: 40rem){
+.signup-form{
+    margin: auto;
+    width: 30rem;
+    grid-template-columns: 10rem auto;
+    grid-row-gap: 1rem;
+    grid-column-gap: 0.5rem;
+}
+.signup-form button[type="submit"]{
+    grid-column: 1 / span 2;
+    /*justify-self: flex-start;*/
+    margin: 0 auto;
+    
+}
+}
