@@ -97,7 +97,7 @@
     
     .plan{
         width: 30%;
-        min-width: 13rem;
+        min-width: 14rem;
         max-width: 25rem;
         height: 28rem;
         display: flex;
@@ -115,6 +115,7 @@
      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
      z-index: 1;
      height: 30rem;
+     min-width: 16rem;
     }
 
    
@@ -179,19 +180,30 @@ padding: 1rem;
 }
 .modal {
     position: fixed;
+    display: none;
     opacity: 0;
     transform: translateY(-3rem);
     transition: opacity 200ms ease-out, transform 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
     z-index: 200;
-    top: 20%;
-    left: 30%;
-    width: 40%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    
+    justify-content: center;
     background: white;
     padding: 1rem;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
-  
+
+@media (min-width: 40rem){
+    .modal{
+    top: 20%;
+    left: 30%;
+    width: 40%; 
+    } 
+}  
+
   .modal__title {
     text-align: center;
     margin: 0 0 1rem 0;
@@ -227,3 +239,5 @@ padding: 1rem;
     background: #ff5454;
     border-color: #ff5454;
   }
+
+  
